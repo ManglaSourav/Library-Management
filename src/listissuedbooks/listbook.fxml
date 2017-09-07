@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="rootPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="listissuedbooks.ListBookController">
+   <children>
+      <TableView fx:id="tableview" layoutX="-128.0" layoutY="-111.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+            <TableColumn fx:id="snoCol" minWidth="200.0" prefWidth="-1.0" text="S.No." />
+            <TableColumn fx:id="bookidCol" minWidth="200.0" prefWidth="-1.0" text="Book ID" />
+            <TableColumn fx:id="holderIDCol" minWidth="200.0" prefWidth="-1.0" text="Holder ID" />
+            <TableColumn fx:id="issuedateCol" minWidth="200.0" prefWidth="-1.0" text="Issued Date " />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
